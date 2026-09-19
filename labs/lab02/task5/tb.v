@@ -43,7 +43,7 @@ module tb;
       $display("FAIL: Sub 5-3 (op toggle) got %0d expected %0d", t_result, exp_result);
       err = err + 1;
     end
-
+      
     t_a = 4'd8;
     t_b = 4'd2;
     t_op = 1'b1;
